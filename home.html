@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home_body">
+      <button id="to_play" onclick="document.getElementById('id01')
+      .style.display='block'">L'ets play Memory game</button>
+
+    <div>
+        
+    </div>
+
+    <div>   
+       
+<div dir="ltr" id="id01" class="modal" >
+    <form id="id01" class="modal-content animate" action="html/game.html" >
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="סגירה">&times;</span>
+        <div class="container">
+        <h1>To enjoy the game, we need to know who you are!</h1>
+            <label for="uname"><b>Name</b></label><br />
+            <input id="tt" type="text" placeholder="name" name="uname" required><br />
+            <label for="psw"><b> family name </b></label><br />
+            <input id="family" type="text" placeholder="family name" name="psw" required><br />
+            <button id="enter">Enter</button><br />
+        </div>
+    </form>
+</div>
+<!-- 
+    <div id="cards_container">
+      Cards will be here -->
+        <!-- </div>   -->
+
+    <script src="script/script.js"></script>
+</body>
+</html>
+
