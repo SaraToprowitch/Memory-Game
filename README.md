@@ -20,12 +20,7 @@ This project is a standard memory game developed using JavaScript. The objective
 ## Development
 This project is developed using JavaScript for the game logic and functionality. It utilizes HTML and CSS for the user interface and styling. Contributions and feedback are welcome to improve the game and add new features.
 
-## Installation
-To run the game locally, you can clone this repository to your machine using the following command:
+## Using
+To run the game locally, you can clone this repository to your machine open the home page on your browser.
 
 
-## Demo
-You can play a live demo of the game [here](#) (Add link to live demo if available).
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
